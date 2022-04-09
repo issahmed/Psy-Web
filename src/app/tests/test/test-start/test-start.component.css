@@ -1,0 +1,23 @@
+label {
+    display: inline-block;
+    margin-left: 12px;
+}
+.start {
+    color: rgb(255, 255, 255) ; /* mba3ed nraj3ou abyeth */
+    letter-spacing: 2px;
+    font-size: 1.5em;
+    font-weight: 600;
+    text-decoration: none;
+    border-radius: 20px;
+    background-color: rgb(28, 77, 255);
+    padding: 8px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+ 
+.start:hover{
+    color: rgb(53, 117, 228);
+    background-color: aliceblue;
+    font-weight: bold;
+    text-shadow: 1em;   
+}

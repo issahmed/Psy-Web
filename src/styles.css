@@ -1,0 +1,14 @@
+body{
+    background: #4696d7;   
+    background: -webkit-linear-gradient(to bottom, #2872cd, #000000);   
+    background: linear-gradient(to bottom, #529ae3, #c4e1ff); 
+    background-attachment: fixed;
+    
+}
+/* *{
+
+    background: url(src/assets/bg-image.jpg);
+    background-size: cover;
+    background-position: center;
+    
+} */

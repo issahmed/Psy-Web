@@ -1,0 +1,44 @@
+<h4 style="color: rgb(21, 21, 21);">Please answer these questions : </h4>
+<hr>
+
+
+<div>
+        <div class="row bg-transparent " *ngFor="let question of testQuestions  ">
+            <div class="col-lg-7 ">
+            <p> {{question}} </p>
+            </div>
+            <div class="col-lg-5  "  >
+                <div class=" row">
+                    <form  class="  my-1 ps-0" style="background: none;">   
+                        <div class="form-group">
+                            <div class=" border-0  form-control bg-transparent " >
+                                <label 
+                                class="radio-inline">
+                                    <input type="radio" name="gender" value="oui" >
+                                    vrai                                                                   
+                                </label>
+                                <label class="radio-inline">
+                                    <input type="radio" name="gender" value="non" >
+                                Plutot vrai 
+                                </label>
+                                <label class="radio-inline">
+                                    <input type="radio" name="gender" value="oui" >
+                                Plutot faux 
+                                </label>
+                                <label class="radio-inline">
+                                    <input type="radio" name="gender" value="non" >
+                                Faux
+                                </label>                               
+                            </div>                         
+                        </div>  
+                                
+                    </form>                
+                </div>
+            </div>
+            <hr>
+        </div>  
+        <button class=" start float-end " (click)="onResult()" > Result </button>         
+</div>
+
+
+

@@ -1,0 +1,23 @@
+<a  
+[routerLink]="[index]"
+style="cursor: pointer; background-color: transparent; " 
+class="list-group-item clearfix test-bg border-0"
+routerLinkActive="active">
+<div>
+    <span class="float-start me-3">
+        <img src="{{test.imagePath}}" 
+        height="90px"
+        width="120px"
+        alt="{{test.name}}" 
+        class="img-responsive align-content-start position-relative " 
+        style=" width: 100 px;">
+    </span>
+</div>
+    <div style="margin-left: 10px;">
+        <h3 class="list-group-item-heading alig "> {{test.name}} </h3>
+        <p class="  list-group-item-text">
+        click to read description  
+        </p>
+    </div>
+</a>
+<hr>
